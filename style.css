@@ -1,0 +1,23 @@
+/* Make the container a flexbox */
+.container {
+    display: flex;
+    justify-content: space-evenly; /* Spaces elements evenly */
+    align-items: center; /* Align items vertically */
+    width: 100%;
+}
+
+/* Style for both player divs */
+.player {
+    background-color: lightblue;
+    width: 500px; /* Fixed width */
+    height: 350px; /* Fixed height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px; /* Optional: Rounded corners */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
